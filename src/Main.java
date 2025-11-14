@@ -27,8 +27,10 @@ public class Main {
 //        String s2="hello";
 //        String s3=new String("hello");
 //        System.out.println(s1.equals(s2));
-        List<Integer> numbers= List.of(12,23,45,66);
-        List<Integer> numberAddWith5=numbers.stream().map((item)->item+5).toList();
-        System.out.println(numberAddWith5);
+//        List<Integer> numbers= List.of(12,23,45,66);
+//        List<Integer> numberAddWith5=numbers.stream().map((item)->item+5).toList();
+//        System.out.println(numberAddWith5);
+
+        Calculation obj= new Calculation();
     }
 }
